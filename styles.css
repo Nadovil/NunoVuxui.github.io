@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    display: inline;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: blue;
+}
+
+main {
+    padding: 20px;
+}
+
+aside {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/*
+-- Formul�rios
+*/
+ 
+.campo {
+    margin-bottom: 0.75em;
+}
+ 
+.campo label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0.1em;
+}
+ 
+.campo abbr {
+    color: #C00;
+    font-weight: bold;
+}
+ 
+.campo input, .campo textarea, .campo select {
+    width: 100%;
+    border: 1px solid #CCC;
+    font-size: 1em;
+    padding: 0.1em 0;
+}
+ 
+.campo textarea {
+    height: 10em;
+}
+ 
+label.checkbox {
+    display: inline-block;
+    margin-right: 1em;
+}
+ 
+label.checkbox input {
+    display: inline;
+    vertical-align: baseline;
+    width: auto;
+}
+ 
+.submit {
+    font-size: 1em;
+    background: #0F599F;
+    font-weight: bold;
+    color: #FFF;
+    border: 0;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+ 
+.submit:hover {
+    background: #F90;
+}
+ 
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+ 
+.campo.telefone {
+    width: 30%;
+}
+ 
+.campo.nome, .campo.empresa {
+    width: 48%;
+}
+ 
+fieldset.grupo .campo.empresa {
+    margin-right: 0;
+    float: right;
+}
+ 
+label, select, .submit {
+    cursor: pointer;
+}
